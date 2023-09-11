@@ -1,14 +1,18 @@
 # PicoKeypad
-Using the Raspberry Pi pico and the pimoroni silicon rgb keypad for the pico I've added two more oled diplsays and programmed some games to get started 
+Using the Raspberry Pi pico and the pimoroni silicon rgb keypad for the pico I've added two more oled diplsays and programmed some games to get started. Use Thonny to upload the code and make sure to include the librarys from the lib folder. 
 
 Connect two OLED displays as following pins on the Pico;
-oled 1
-SDA: pin 6 
-SCL: pin 7 
 
-oled 2
+```
+OLED 1
+SDA: pin 6 
+SCL: pin 7
+```
+```
+OLED 2
 SDA: pin 24
 SCL: pin 25
+```
 
 then make the neccisary power connections for the two displays.
 
